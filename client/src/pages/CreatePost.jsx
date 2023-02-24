@@ -20,7 +20,7 @@ const CreatePost = () => {
     if (form.prompt) {
       try {
         setGeneratingImg(true);
-        const response = await fetch('https://bellcranel.click:8080/api/v1/dalle',
+        const response = await fetch('https://153580.bellcranel.click/api/v1/dalle',
         {
           method: 'POST',
           headers: {
