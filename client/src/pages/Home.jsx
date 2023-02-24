@@ -25,7 +25,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://bellcranel.click:8080/api/v1/post', {
+      const response = await fetch('https://153580.bellcranel.click/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
